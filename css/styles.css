@@ -93,17 +93,18 @@
 
 body {
   margin: 0;
-  /* overflow-x: hidden; */
+  /* background-image: url('../assets/img/bg.jpg'); */
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color: #f2f2f0; /*var(--bs-body-bg);*/
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
 
 hr {
   margin: 1rem 0;
@@ -4241,7 +4242,7 @@ textarea.form-control-lg {
   padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
   color: var(--bs-card-cap-color);
   background-color: var(--bs-card-cap-bg);
-  border-top: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  /* border-top: var(--bs-card-border-width) solid var(--bs-card-border-color); */
 }
 .card-footer:last-child {
   border-radius: 0 0 var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius);
@@ -11113,6 +11114,30 @@ p, .justify {
   }
 }
 
+.anim-bg-color {
+  background: linear-gradient(268deg, #020c09, #4847c5, #46b6a7, #090a09);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 11s ease infinite;
+  -moz-animation: AnimationName 11s ease infinite;
+  animation: AnimationName 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 54%}
+  50%{background-position:100% 47%}
+  100%{background-position:0% 54%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 54%}
+  50%{background-position:100% 47%}
+  100%{background-position:0% 54%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 54%}
+  50%{background-position:100% 47%}
+  100%{background-position:0% 54%}
+}
 /* Todo */
 /* .color-picker-container {
   position: fixed;
@@ -11148,10 +11173,10 @@ p, .justify {
   box-shadow: 0 10px 15px #00000060;
 } */
 
-/* .hero-img {
+.hero-img {
   background-image: url("../assets/img/profile.jpg");
-  width: 35rem;
-  height: 35rem;
+  width: 10rem;
+  height: 10rem;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -11164,8 +11189,8 @@ p, .justify {
 
 @media (max-width: 500px) {
   .hero-img {
-    width: 28rem;
-    height: 28rem;
+    width: 8rem;
+    height: 8rem;
   }
 }
 
@@ -11181,4 +11206,4 @@ p, .justify {
   100% {
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   }
-} */
+}
