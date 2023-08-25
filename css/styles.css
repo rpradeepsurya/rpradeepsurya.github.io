@@ -93,7 +93,7 @@
 
 body {
   margin: 0;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
@@ -10953,6 +10953,7 @@ section.resume-section {
   padding-top: 5rem;
   padding-bottom: 5rem;
   max-width: 75rem;
+  overflow-x: hidden;
 }
 section.resume-section .resume-section-content {
   width: 100%;
