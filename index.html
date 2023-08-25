@@ -19,9 +19,16 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body id="page-top">
+    <!-- <div class="color-picker-container">
+        <label for="colorPicker">
+            <i id="colorPickerIcon" class="fas fa-palette fa-2x"></i>
+        </label>
+        <input type="color" id="colorPicker" style="visibility: hidden; position: absolute;">
+    </div> -->
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -53,26 +60,33 @@
         <!-- About-->
         <section class="resume-section" id="about">
             <div class="resume-section-content">
+                <div data-aos="fade-right" data-aos-duration="3000">
                 <h1 class="mb-0">
                     Pradeepsurya
                     <span class="text-primary">Rajendran</span>
                 </h1>
-                <div class="subheading mb-5">
+                </div>
+                <div class="subheading mb-5" data-aos="fade-left" data-aos-duration="3000">
                     Buffalo, New York | (716) 495-3426 |
                     <a href="mailto:pradeepsurya@live.com">pradeepsurya@live.com</a>
                 </div>
+                <div data-aos="fade-in" data-aos-duration="3000">
                 <p class="lead">
                     With over three years of professional experience as a Software Developer in the fintech realm,
                     I have honed my expertise in developing high-caliber digital solutions that drive financial
                     inclusion.
                     My experience in frontend development, especially with Angular, highlights my commitment to crafting
                     exceptional products in ever-evolving landscapes.</p>
-                <p class="lead ">
+                </div>
+                <div data-aos="fade-in" data-aos-duration="3000">
+                <p class="lead">
                     As a recent graduate with a Master's degree in Computer Science from the University at Buffalo,
                     I've refined my technical skills and delved deeply into data science. This academic journey has
                     empowered me to approach software development with a comprehensive perspective, integrating
                     data-driven solutions.
                 </p>
+                </div>
+                <div data-aos="fade-in" data-aos-duration="3000">
                 <p class="lead mb-5">
                     Having been recognized for both innovation and commitment in my career, I'm not just a developer,
                     but a dedicated tech professional
@@ -82,7 +96,8 @@
                     the transformative
                     power of technology and its ability to redefine the future.
                 </p>
-                <div class="social-icons">
+                </div>
+                <div class="social-icons" data-aos="fade-in" data-aos-duration="3000">
                     <!-- <a class="social-icon" href="https://www.linkedin.com/in/pradeepsurya-rajendran/" target="_blank">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />
                     </a>
@@ -125,7 +140,7 @@
             <div class="resume-section-content">
                 <h2 class="mb-5">Skills</h2>
                 <div class="row">
-                    <div class="col-s-12 col-lg-8">
+                    <div class="col-s-12 col-lg-8" data-aos="fade-right" data-aos-duration="1000">
                         <div class="subheading mt-3">Front-end Development</div>
                         <div class="list-inline dev-icons">
                             <li class="list-inline-item">
@@ -165,7 +180,7 @@
                             </li>
                         </div>
                     </div>
-                    <div class="col-s-12 col-lg-4">
+                    <div class="col-s-12 col-lg-4" data-aos="fade-right" data-aos-duration="1000">
                         <div class="subheading mt-3">Back-end Development</div>
                         <ul class="list-inline dev-icons">
                             <li class="list-inline-item">
@@ -182,7 +197,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-s-12 col-lg-8">
+                    <div class="col-s-12 col-lg-8" data-aos="fade-right" data-aos-duration="1500">
                         <div class="subheading mt-3">DevOps & Version Control</div>
                         <ul class="list-inline dev-icons">
                             <li class="list-inline-item">
@@ -207,7 +222,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-s-12 col-lg-4">
+                    <div class="col-s-12 col-lg-4" data-aos="fade-right" data-aos-duration="1500">
                         <div class="subheading mt-3">Databases</div>
                         <ul class="list-inline dev-icons">
                             <li class="list-inline-item">
@@ -224,7 +239,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12" data-aos="fade-right" data-aos-duration="2000">
                         <div class="subheading mt-3">Data Science & Machine Learning</div>
                         <ul class="list-inline dev-icons">
                             <li class="list-inline-item">
@@ -280,7 +295,7 @@
         <hr class="m-0" />
         <!-- Experience-->
         <section class="resume-section" id="experience">
-            <div class="resume-section-content">
+            <div class="resume-section-content" data-aos="fade-left" data-aos-duration="2000">
                 <h2 class="mb-5">Experience</h2>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
@@ -339,7 +354,7 @@
                 <h2 class="mb-5">Projects</h2>
                 <div class="row">
                     <!-- Credit Score Analysis -->
-                    <div class="col-md-6 col-lg-6 col-xl-4 mb-4">
+                    <div class="col-md-6 col-lg-6 col-xl-4 mb-4" data-aos="flip-left" data-aos-duration="2000">
                         <div class="card project-card" data-bs-toggle="modal" data-bs-target="#creditScore">
                             <img src="assets/img/credit_score.jpg" class="card-img-top img fluid" alt="credit-score">
                             <div class="card-body p-0">
@@ -353,7 +368,7 @@
                         </div>
                     </div>
                     <!-- Ebook Reader -->
-                    <div class="col-md-6 col-lg-6 col-xl-4 mb-4">
+                    <div class="col-md-6 col-lg-6 col-xl-4 mb-4" data-aos="flip-right" data-aos-duration="2000">
                         <div class="card project-card" data-bs-toggle="modal" data-bs-target="#ebook">
                             <img src="assets/img/ebook.jpg" class="card-img-top img fluid" alt="ebook">
                             <div class="card-body p-0">
@@ -366,7 +381,7 @@
                         </div>
                     </div>
                     <!-- Raft Consensus Distributed System -->
-                    <div class="col-md-6 col-lg-6 col-xl-4 mb-4">
+                    <div class="col-md-6 col-lg-6 col-xl-4 mb-4" data-aos="flip-left" data-aos-duration="2000">
                         <div class="card project-card" data-bs-toggle="modal" data-bs-target="#raft">
                             <img src="assets/img/raft.jpg" class="card-img-top img fluid" alt="Raft">
                             <div class="card-body p-0">
@@ -380,7 +395,7 @@
                         </div>
                     </div>
                     <!-- Trello Clone -->
-                    <div class="col-md-6 col-lg-6 col-xl-4 mb-4">
+                    <div class="col-md-6 col-lg-6 col-xl-4 mb-4" data-aos="flip-right" data-aos-duration="2000">
                         <div class="card project-card" data-bs-toggle="modal" data-bs-target="#trello">
                             <img src="assets/img/trello.jpg" class="card-img-top img fluid" alt="trello">
                             <div class="card-body p-0">
@@ -393,7 +408,7 @@
                         </div>
                     </div>
                     <!-- Image stitching and panorama creation -->
-                    <div class="col-md-6 col-lg-6 col-xl-4 mb-4">
+                    <div class="col-md-6 col-lg-6 col-xl-4 mb-4" data-aos="flip-left" data-aos-duration="2000">
                         <div class="card project-card" data-bs-toggle="modal" data-bs-target="#stitch">
                             <img src="assets/img/stitch.jpg" class="card-img-top img fluid" alt="Image_Stitching">
                             <div class="card-body p-0">
@@ -406,7 +421,7 @@
                         </div>
                     </div>
                     <!-- Facial Keypoint Detection -->
-                    <div class="col-md-6 col-lg-6 col-xl-4 mb-4">
+                    <div class="col-md-6 col-lg-6 col-xl-4 mb-4" data-aos="flip-right" data-aos-duration="2000">
                         <div class="card project-card" data-bs-toggle="modal" data-bs-target="#keypoint">
                             <img src="assets/img/keypoint.jpg" class="card-img-top img fluid" alt="keypoint">
                             <div class="card-body p-0">
@@ -420,7 +435,7 @@
                         </div>
                     </div>
                     <!-- REXAR -->
-                    <div class="col-md-6 col-lg-6 col-xl-4 mb-4">
+                    <div class="col-md-6 col-lg-6 col-xl-4 mb-4" data-aos="flip-left" data-aos-duration="2000">
                         <div class="card project-card" data-bs-toggle="modal" data-bs-target="#rexar">
                             <img src="assets/img/rexar.png" class="card-img-top img fluid" alt="REXAR">
                             <div class="card-body p-0">
@@ -434,7 +449,7 @@
                         </div>
                     </div>
                     <!-- Tamil HCR -->
-                    <div class="col-md-6 col-lg-6 col-xl-4 mb-4">
+                    <div class="col-md-6 col-lg-6 col-xl-4 mb-4" data-aos="flip-right" data-aos-duration="2000">
                         <div class="card project-card" data-bs-toggle="modal" data-bs-target="#hcr">
                             <img src="assets/img/tamil.jpg" class="card-img-top img fluid" alt="hcr">
                             <div class="card-body p-0">
@@ -447,7 +462,7 @@
                         </div>
                     </div>
                     <!-- Customer Segmentation -->
-                    <div class="col-md-6 col-lg-6 col-xl-4 mb-4">
+                    <div class="col-md-6 col-lg-6 col-xl-4 mb-4" data-aos="flip-left" data-aos-duration="2000">
                         <div class="card project-card" data-bs-toggle="modal" data-bs-target="#segment">
                             <img src="assets/img/segment.jpg" class="card-img-top img fluid" alt="segment">
                             <div class="card-body p-0">
@@ -523,6 +538,10 @@
                             </p>
                         </div>
                         <div class="modal-footer">
+                            <a href="./ebook/index.html" class="btn btn-primary"
+                                target="_blank">
+                                Demo
+                            </a>
                             <a href="https://github.com/rpradeepsurya/e-book_reader_angular" class="btn btn-primary"
                                 target="_blank">
                                 <i class="fa-brands fa-github"></i> View on GitHub
@@ -777,7 +796,7 @@
         <section class="resume-section" id="education">
             <div class="resume-section-content">
                 <h2 class="mb-5">Education</h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">
                             <a href="https://www.buffalo.edu/" target="_blank">
@@ -791,7 +810,7 @@
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">January 2022 - June 2023</span></div>
                 </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
+                <div class="d-flex flex-column flex-md-row justify-content-between" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">
                             <a href="https://www.kct.ac.in/" target="_blank">
@@ -813,7 +832,7 @@
         <section class="resume-section" id="awards">
             <div class="resume-section-content">
                 <h2 class="mb-5">Awards & Certifications</h2>
-                <ul class="fa-ul mb-0">
+                <ul class="fa-ul mb-0" data-aos="zoom-in" data-aos-duration="1000">
                     <li>
                         <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
                         <a href="https://www.credly.com/badges/fd58d3e6-e3d9-416b-a54a-c117931a8ba2/linked_in_profile"
@@ -852,6 +871,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
