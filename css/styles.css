@@ -11138,40 +11138,6 @@ p, .justify {
   50%{background-position:100% 47%}
   100%{background-position:0% 54%}
 }
-/* Todo */
-/* .color-picker-container {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 999; 
-}
-
-#colorPickerIcon {
-  cursor: pointer;
-  background-color: var(--bs-primary);
-  border-radius: 50%;
-  padding: 10px;
-  color: #ffffff;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-} */
-
-/* #about {
-  z-index: 5;
-  position: sticky;
-  box-shadow: 0 10px 15px #00000060;
-}
-
-#skills {
-  z-index: 4;
-  position: sticky;
-  box-shadow: 0 10px 15px #00000060;
-}
-
-#experience {
-  z-index: 3;
-  position: sticky;
-  box-shadow: 0 10px 15px #00000060;
-} */
 
 .hero-img {
   background-image: url("../assets/img/profile.jpg");
